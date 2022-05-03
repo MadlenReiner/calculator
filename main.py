@@ -1,5 +1,4 @@
-from std_operations import add
-from std_operations import substract
+from std_operations import add, substract
 
 a=-1
 b=3.14

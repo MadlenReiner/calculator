@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 import numpy as np
 
 from std_operations import add, substract
 from linalg import ScalProd
+=======
+from std_operations import add, substract
+>>>>>>> detached2
 
 a=-1
 b=3.14

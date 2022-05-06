@@ -1,0 +1,15 @@
+name: My First Workflow
+on: [push]
+jobs:
+   CI:
+      runs-on: ubuntu-latest
+      steps:
+         - name: Checking pre-installed dependencies
+           run: python --version; pip --version
+         - name: Installing additional dependencies
+           run: pip install -U numpy
+         - name: Checking installed dependencies
+           run: python -c "import numpy as np; print(np.__version__)"
+         - uses: actions/checkout@v1
+         - name: Build
+           run: python main.py

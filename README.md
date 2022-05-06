@@ -1,1 +1,9 @@
-This is a description of my project. It's supposed to be a calculator.
+# Project "Calculator"
+
+## A test project for the course "Introduction to Version Control Systems: Git and GitHub"
+
+### Spring 2022
+
+#### Alessandro Coretti *<alessandro.coretti@univie.ac.at>*
+
+This project implements a small math library.

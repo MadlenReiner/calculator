@@ -13,3 +13,5 @@ jobs:
          - uses: actions/checkout@v1
          - name: Build
            run: python main.py
+         - name: Test
+           run: pytest
